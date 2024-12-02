@@ -1,0 +1,533 @@
+body {
+    background-color: #a45fc4;
+}
+
+#bienvenido {
+    text-align: center;
+    top: 50%;
+    position: relative;
+    font-size: 80px;
+    color: #5588aa;
+    animation: tenue 1s alternate infinite;
+}
+
+@keyframes tenue {
+    from { opacity: 1; }
+    to { opacity: 0.5; }
+}
+
+.seccion-inicial {
+    height: 50vh;
+}
+
+
+.contenedor-catalogo {
+    height: 85vh;
+}
+
+.titulo-tabla {
+    text-align: center;
+    font-size: 24px;
+}
+
+.texto-tabla {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tabla-angosta {
+    width: 50%;
+    margin: auto;
+}
+
+.boton-mas {
+    font-size: 30px;
+}
+
+
+.lista-integrantes {
+    background-color: #89d419;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2c3e50;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.lista-integrantes h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.lista-integrantes ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-integrantes ul li {
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.lista-integrantes ul li:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+.lista-integrantes ul li:last-child {
+    border-bottom: none;
+}
+/***** nosotros *****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-us {
+    padding: 2rem 0;
+    background-color: #09896d;
+    text-align: center;
+}
+
+.about-us h2 {
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team {
+    padding: 2rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 1rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+/***** inicio *****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+.hero {
+    background-color: hsla(280, 56%, 70%, 0.995);
+    color: rgb(3, 2, 2);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 20px;
+    background-color: rgb(8, 4, 4);
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services-section {
+    background-color: #277d92;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service {
+    background-color: rgb(220, 188, 32);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 40px);
+    max-width: calc(33% - 40px);
+    text-align: center;
+}
+
+.service h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-section {
+    background-color: #1c6b8a;
+    padding: 50px 20px;
+}
+
+.contact-section h2,
+.contact-section p {
+    color: #333;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+footer {
+    background-color: #2c863e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .service {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+
+/***** NOSOTROS *****/
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2, h3 {
+    color: #1e3a58;
+}
+
+p, li {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos del Contenedor */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Encabezado */
+header {
+    background-color: #1e3a58;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+/* Estilos de la Sección Sobre Nosotros */
+.about-us {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.about-us h3 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #1e3a58;
+}
+
+.about-us ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about-us ul li {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* Diseño del Equipo */
+.about-us p, .about-us ul {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h2, h3 {
+        font-size: 22px;
+    }
+
+    .about-us ul {
+        text-align: left;
+    }
+
+    .about-us p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+}
+
+
+/***** BOOTSTRAP *****/
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px #777777;
+}
+
+ /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #ac1ccc, #4d3fcd); /* Degradado en el fondo */
+        }
+
+        /* Center container styling */
+        .hero {
+            background-color: #0f010f;
+            color: white;
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        /* Floating panel styles */
+        #floating-panel {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        #floating-panel b {
+            font-size: 1.1em;
+            margin-right: 10px;
+        }
+
+        #floating-panel select, 
+        #floating-panel button {
+            padding: 10px;
+            font-size: 1em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            border: 1px solid #21ad21;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #floating-panel button {
+            background-color: #25b34b;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #floating-panel button:hover {
+            background-color: #4c51bf;
+        }
+
+        /* Centered iframe */
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8em;
+            }
+
+            iframe {
+                width: 100%;
+                height: 400px;
+            }
+
+            #floating-panel {
+                width: 90%;
+            }
+        }

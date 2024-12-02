@@ -1,0 +1,34 @@
+{
+    "routes": [
+      {
+        
+        "legs": [
+          {
+            "distance": {
+              "text": "124 km",
+              "value": 124419
+            },
+            "duration": {
+              "text": "3 h 6 min",
+              "value": 11181
+            },
+            "end_address": "Vía sin nombre, 29960 Chis., México",
+            "end_location": {
+              "lat": 17.5247641,
+              "lng": -92.0248126
+            },
+            "start_address": "Santo Domingo, 29950 Chis., México",
+            "start_location": {
+              "lat": 16.905682,
+              "lng": -92.1127939
+            }
+            
+          }
+        ],
+
+        "summary": "Ocosingo - Palenque/Palenque - Ocosingo/México 199"
+
+      }
+    ]
+    
+  }
